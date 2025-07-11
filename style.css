@@ -280,6 +280,101 @@ main {
   width: 840px;
 }
 
-button:hover {
-  background-color: #2201fd;
+/* get in touch */
+
+.contact-section {
+  margin-bottom: 14px;
+  padding: 71px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-section h2 {
+  font-family: "raleway", sans-serif;
+  font-size: bold;
+  font-size: 97px;
+  line-height: 120%;
+  color: #4e47ff;
+  width: 528px;
+}
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.contact-me .form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-me label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 1);
+}
+.contact-me input[type="text"],
+.contact-me input[type="email"],
+.contact-me textarea {
+  padding: 20px 32px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(214, 221, 237, 1);
+}
+.contact-me textarea {
+  resize: none;
+}
+.contact-me input[type="submit"] {
+  padding: 20px 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4e47ff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+footer {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 105px 0;
+}
+
+.ending-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.foot-text h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  text-align: center;
+  color: rgba(78, 71, 255, 1);
+}
+.foot-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(137, 135, 161, 1);
+}
+.ending-section ul {
+  display: flex;
+  gap: 48px;
+  justify-content: space-evenly;
+}
+.ending-section ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(137, 135, 161, 1);
 }
