@@ -14,6 +14,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 nav {
   width: 1140px;
@@ -49,7 +50,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 37px;
-  margin: 158px 0 152px;
+  margin: 158px 0 200px;
 }
 .first-box h1 {
   font-family: "raleway", sans-serif;
@@ -68,4 +69,55 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 16px;
+}
+
+/* main tags */
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 110px 150px 15px;
+}
+.action-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 116px;
+}
+
+.action-text-column {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+.action-text-column h2 {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+.action-text-column p {
+  font-family: "raleway", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #4e47ff;
+}
+.action-text-column button {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+  background-color: #4e47ff;
+  border: none;
+}
+.action-section img {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
 }
