@@ -378,3 +378,8 @@ footer {
   line-height: 150%;
   color: rgba(137, 135, 161, 1);
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: #2980b9; /* darker blue */
+}
