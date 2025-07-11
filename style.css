@@ -161,28 +161,123 @@ main {
   color: #2524326c;
 }
 
-/* footer */
-footer {
+/* review */
+
+.review-section {
+  margin-bottom: 137px;
   display: flex;
-  flex-direction: column;
-  padding: 110px 150px 15px;
-}
-.contact-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.contact-text {
-  width: 500px;
-  display: flex;
+  gap: 50px;
   flex-direction: column;
   align-items: center;
 }
-.contact-text h2 {
+.review-section-title {
   font-family: "raleway", sans-serif;
   font-weight: bold;
-  font-size: 97px;
-  color: #252432;
+  font-size: 42px;
+  text-align: center;
+  color: #4e47ff;
+}
+.review-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-card {
+  background-color: rgba(226, 223, 223, 0.37);
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  border-radius: 14px;
+  width: 366px;
+  border: 1px solid rgba(242, 237, 237, 1);
+}
+.star-container {
+  display: flex;
+  gap: 14px;
+}
+.star-container img {
+  width: 20px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.review-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -2%;
+  color: rgba(30, 30, 30, 1);
+}
+.review-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(30, 30, 30, 1);
+}
+.reviewers-handle {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+}
+.reviewers-handle img {
+  width: 40px;
+  border-radius: 9999px;
+}
+
+.reviewer-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(117, 117, 117, 1);
+}
+.reviewing-time {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(179, 179, 179, 1);
+}
+
+.focus-section {
+  margin-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  padding: 71px 150px;
+  border-radius: 14px;
+  background: white;
+}
+.focus-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 1);
+}
+.focus-section p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.focus-section button {
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(78, 71, 255, 1);
+  color: #ffffff;
+}
+.focus-section img {
+  border-radius: 48px;
+  width: 840px;
 }
 
 button:hover {
